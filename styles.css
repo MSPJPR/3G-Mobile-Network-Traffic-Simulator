@@ -1,0 +1,94 @@
+/* General body and layout styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Styling for network container */
+#network-container {
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 850px;
+  background-color: #fff;
+}
+
+/* Styling for canvas element */
+#network-canvas {
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
+
+/* Controls section */
+#controls {
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  width: 90%;
+  max-width: 850px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #3e8e41;
+}
+
+/* Metrics section */
+#metrics {
+  margin: 20px auto;
+  padding: 10px;
+  width: 90%;
+  max-width: 850px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 600px) {
+  #network-container, #controls, #metrics {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 18px;
+  }
+}
