@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3G Mobile Network Traffic Simulator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>3G Mobile Network Traffic Simulator</h1>
+  <div id="network-container">
+    <canvas id="network-canvas" width="800" height="600"></canvas>
+  </div>
+  <div id="controls">
+    <button id="simulate-button">Start Simulation</button>
+    <button id="reset-button">Reset Simulation</button>
+  </div>
+  <div id="metrics">
+    <p id="handover-count">Handovers: 0</p>
+    <p id="qos-category">QoS Category: Voice</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
